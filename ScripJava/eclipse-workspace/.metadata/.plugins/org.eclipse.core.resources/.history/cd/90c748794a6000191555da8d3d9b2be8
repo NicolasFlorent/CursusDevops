@@ -1,0 +1,12 @@
+
+public class Piece {
+	
+	private int xposition;
+	private int yposition;
+	
+	public Piece(int xposition, int yposition) {
+		this.xposition=xposition;
+		this.yposition=yposition;
+	}
+	
+}

@@ -1,0 +1,12 @@
+package org.eclipse.classes;
+
+import org.eclipse.model.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Adresse adresse = new Adresse("430 Avenue de Lattre de Tassigny","13009","Marseille");
+		Personne personne = new Personne("Mateus", "Nicolas", 25, adresse);
+		System.out.println(personne.toString());
+	}
+}

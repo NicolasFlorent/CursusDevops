@@ -1,0 +1,6 @@
+
+public class PDG extends Societe{
+	private String nomPdg;
+	
+
+}

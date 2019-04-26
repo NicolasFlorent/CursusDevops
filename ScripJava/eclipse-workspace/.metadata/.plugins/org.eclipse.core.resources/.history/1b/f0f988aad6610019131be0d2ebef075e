@@ -1,0 +1,17 @@
+package org.eclipse.model;
+
+import org.eclipse.interfaces.Travailleur;
+
+public class Biologiste extends Etudiant implements Travailleur{
+	
+	protected boolean avoirUneBlouse=false;
+	
+	public Biologiste(String prenom, String nom, Adresse adresse) {
+		super(prenom, nom, adresse);
+	}
+
+	@Override
+	public void travailler() {		
+	}
+
+}

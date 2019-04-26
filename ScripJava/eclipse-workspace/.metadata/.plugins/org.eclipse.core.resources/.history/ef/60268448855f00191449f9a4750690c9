@@ -1,0 +1,14 @@
+
+public class DessinEtoile {
+	
+	
+	public static void ligne(int a) {
+		for(int i=0;i<a;i++)
+			System.out.print("*");
+	}
+
+	public static void main(String[] args) {
+		
+	}
+
+}

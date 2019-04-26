@@ -1,0 +1,46 @@
+import java.util.Scanner;
+public class DessinEtoile {
+	
+	
+	public static void ligne(int a) {
+		for(int i=0;i<a;i++)
+			System.out.print("*");
+	}
+	
+	public static void rectangle(int a, int b) {
+		for(int i=0;i<a;i++) {
+			for(int j =0; j<b;j++){
+				System.out.print("*");	
+			}
+			System.out.println();
+		}
+	}
+	
+	public static void triangle(int a) {
+		for(int i=0;i<=a;i++) {
+			for (int j=0;j<i;j++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+	}
+	
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		int x= sc.nextInt();
+		ligne(x);
+		System.out.println();
+		
+		int y = sc.nextInt();
+		int z = sc.nextInt();
+		rectangle(y,z);
+		System.out.println();
+		
+		int w = sc.nextInt();
+		triangle(w);
+		
+	}
+
+}

@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class InTab {
+
+	public static void main(String[] args) {
+		int [] tab = {7,3,4,8,1,9};
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Entrez une valeur pour savoir si elle est dans le tableau ");
+		int a = sc.nextInt();
+		int compt=0;
+		for(int i : tab) {
+			if (i==a) {
+				System.out.println("La valeur appartient au tableau !");
+				break;
+			}
+			compt+=1;
+		}
+		if(compt==tab.length) {
+			System.out.println("La valeur n'est pas dans le tableau !");
+		}
+	}
+
+}

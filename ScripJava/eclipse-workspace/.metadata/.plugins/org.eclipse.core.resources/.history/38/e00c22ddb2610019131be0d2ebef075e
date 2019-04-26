@@ -1,0 +1,11 @@
+
+public class Etudiant extends Personne{
+	public Etudiant(String prenom, String nom) {
+		super(prenom, nom, 20);
+		// TODO Auto-generated constructor stub
+	}
+
+	public void afficherDetails(){
+		System.out.println(nom + " " + prenom);
+	}
+}

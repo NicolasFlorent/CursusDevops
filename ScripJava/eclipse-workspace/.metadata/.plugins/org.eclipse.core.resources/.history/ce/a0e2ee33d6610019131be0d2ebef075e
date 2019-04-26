@@ -1,0 +1,9 @@
+package org.eclipse.interfaces;
+
+public interface Travailleur {
+	public void travailler() {
+		
+	}
+	
+
+}

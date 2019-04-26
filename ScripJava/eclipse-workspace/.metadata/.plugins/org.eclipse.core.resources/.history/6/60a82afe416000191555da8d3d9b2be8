@@ -1,0 +1,8 @@
+
+public class Batiment {
+
+	public Batiment() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

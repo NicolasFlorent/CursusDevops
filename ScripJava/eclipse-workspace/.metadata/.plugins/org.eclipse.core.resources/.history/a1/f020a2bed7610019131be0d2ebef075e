@@ -1,0 +1,34 @@
+package org.eclipse.model;
+
+import org.eclipse.interfaces.Travailleur;
+
+public class Biologiste extends Etudiant implements Travailleur{
+	
+	protected boolean avoirUneBlouse=false;
+	protected Biologiste collegueTPBiologiste;
+	
+	public Biologiste(String prenom, String nom, Adresse adresse) {
+		super(prenom, nom, adresse);
+	}
+
+	public void mettreUneBlouse() {
+		this.avoirUneBlouse=true;
+	}
+	
+	public static void aimerLaPluie() {
+		System.out.println("Aimer la pluie");
+	}
+	
+	
+	@Override
+	public void travailler() {		
+		this.argent+=2000;
+	}
+
+	@Override
+	public String toString() {
+		return "Biologiste [avoirUneBlouse=" + avoirUneBlouse + ", nom=" + nom + ", prenom=" + prenom + ", age=" + age
+				+ ", adresse=" + adresse + ", argent=" + argent + "]";
+	}
+	
+}

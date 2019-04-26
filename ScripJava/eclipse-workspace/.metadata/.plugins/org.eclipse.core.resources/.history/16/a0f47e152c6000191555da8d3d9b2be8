@@ -1,0 +1,13 @@
+
+public class Société {
+	
+	String nom;
+	String location;
+	
+	public static Societe
+
+	public static void main(String[] args) {
+		
+	}
+
+}

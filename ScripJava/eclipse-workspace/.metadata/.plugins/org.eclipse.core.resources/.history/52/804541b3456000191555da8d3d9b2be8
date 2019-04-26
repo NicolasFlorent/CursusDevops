@@ -1,0 +1,15 @@
+
+
+public class main {
+
+	public static void main(String[] args) {
+		Societe societe1 =new Societe("Google","Paris");
+		Employe employe1=new Employe("Google","Toulouse","Marc","PDG",150000);
+		Batiment batiment1 = new Batiment("56 rue de Tourte, Toulouse","Immeuble");
+		
+		societe1.decrisToi();
+		employe1.decrisToi();
+		batiment1.decrisToi();
+	}
+
+}

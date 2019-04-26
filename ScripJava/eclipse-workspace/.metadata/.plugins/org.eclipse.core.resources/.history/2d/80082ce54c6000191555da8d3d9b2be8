@@ -1,0 +1,32 @@
+
+public class Piece {
+	
+	private int xposition;
+	private int yposition;
+	
+	public Piece(int xposition, int yposition) {
+		this.xposition=xposition;
+		this.yposition=yposition;
+	}
+	
+	private int getxposition() {
+		return this.xposition;
+	}
+	
+	private int getyposition() {
+		return this.yposition;
+	}
+	
+	private void setxposition(int xposition) {
+		this.xposition=xposition;
+	}
+	
+	private void setyposition(int yposition) {
+		this.yposition=yposition;
+	}
+	
+	public void move() {
+		
+	}
+	
+}

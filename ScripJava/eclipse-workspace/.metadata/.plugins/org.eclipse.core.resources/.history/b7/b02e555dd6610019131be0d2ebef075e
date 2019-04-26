@@ -1,0 +1,20 @@
+package org.eclipse.model;
+
+import org.eclipse.interfaces.Travailleur;
+
+public class Etudiant extends Personne implements Travailleur{
+	public Etudiant(String prenom, String nom, Adresse adresse) {
+		super(prenom, nom, 20,adresse);
+		// TODO Auto-generated constructor stub
+	}
+
+	public void afficherDetails(){
+		System.out.println(nom + " " + prenom);
+	}
+
+	@Override
+	public void travailler() {
+		// TODO Auto-generated method stub
+		
+	}
+}

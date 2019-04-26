@@ -1,0 +1,10 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Adresse adresse = new Adresse("rue de Lattre de Tassigny","13009","Marseille");
+		Personne personne = new Personne("Mateus", "Nicolas", 25, adresse);
+		personne.toString();
+	}
+
+}

@@ -1,0 +1,13 @@
+
+public class Couleur {
+	
+	public enum Colors{
+		Blanc,
+		Noir
+	}
+	Colors couleur;
+	
+	public Couleur(Colors couleur) {
+		this.couleur=couleur;
+	}
+}

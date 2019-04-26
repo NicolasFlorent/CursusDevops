@@ -1,0 +1,27 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@page import="java.util.*" %>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Page selon le nombre de visite !</title>
+</head>
+<body>
+
+<%-- Déclaration de la variable globale --%>
+<%!int nbVisite=0; %>
+
+<%--Définition du code Java --%>
+
+<%
+Date date = new Date();
+nbVisite++;
+%>
+
+<h1>Notre page</h1>
+<c:if test = nbVisite%2=0>
+
+</body>
+</html>

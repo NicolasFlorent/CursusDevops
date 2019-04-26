@@ -1,0 +1,19 @@
+
+public class Echiquier {
+
+	private Case echiquier[];
+	
+	public Echiquier() {
+		this.echiquier=new Case[64];
+	}
+	
+	private Case[] getEchiquier() {
+		return echiquier;
+	}
+	
+	private Case getCaseEchiquier(int xposition, int yposition) {
+		return this.echiquier[xposition+yposition*8];
+		// x position et yposition de 0 a 7 inclu
+	}
+
+}

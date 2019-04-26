@@ -1,0 +1,33 @@
+
+public class Societe {
+
+	private String nom;
+	private String location;
+	
+	private String getNom() {
+		return this.nom;
+	}
+	
+	private String getLocation() {
+		return this.location;
+	}
+	
+	private void setNom(String nom) {
+		this.nom=nom;
+	}
+	
+	private void setLocation(String location) {
+		this.location=location;
+	}
+	
+	public Societe(String nom,String location) {
+		this.nom=nom;
+		this.location=location;
+	}
+	
+	public static void main(String[] args) {
+		Societe laSociete;
+		laSociete=new Societe();
+	}
+
+}
